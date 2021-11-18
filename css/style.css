@@ -1,0 +1,88 @@
+a {
+	color: #7C0B2B;
+}
+
+.main-header {
+	display: inline;
+	font-family: Helvetica, sans-serif;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	color: #7C0B2B;
+}
+
+body{
+	background-color: #7C0B2B;
+	color: #000;
+	font-family: Helvetica, sans-serif;
+  	margin: 20px;
+}
+
+.navbar ul {
+	list-style: none;
+  	padding: 0px;
+  
+}
+
+.navbar li {
+	display: inline-block;
+}
+ 
+.navbar {
+    background-color: #fff;
+    color: #fff;
+    text-align: right;
+    max-width: 1000px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: 900;  
+}
+
+.navbar a {
+	display: block;
+	padding: 0px 0px 20px 20px;
+}
+
+.wrapper {
+ 	width: auto; 
+  	margin: 0px;
+  	display: grid;
+  	clear: both;
+  	padding: 20px; 
+  	font-size: 100%;
+  	max-width: 1000px; 
+  	background-color: white; 
+  	position: center;
+  }
+
+.econ-grid { 
+	grid-template-columns: 1fr 1fr; 
+	grid-column-gap: 30px;
+	display: grid; 
+	background-color: #290008;
+	padding: 20px;
+	margin: 0px; 
+	max-width: 1000px; 
+	color: white;
+}
+
+.media-grid{
+	display: grid; 
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-column-gap: 30px;
+	padding-top:30px;
+}
+
+.media-grid h3, .chronicle h2 {
+	font-family: serif;
+	padding-bottom: 0px;
+}
+
+.chronicle h2 {
+	font-size: 40px;
+	font-style: italic;
+}
+
+
+
